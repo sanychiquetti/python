@@ -1,2 +1,2 @@
 # python
- Meu curso de Python com Gustavo Guanabara
+ Meu curso de Python com Gustavo Guanabara 
