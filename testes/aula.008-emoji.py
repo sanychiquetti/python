@@ -1,2 +1,3 @@
 import emoji
-print(emoji.emojize(":earth_americas:", use_alises=True))
+print(emoji.emojize(':globe_showing_Americas:', language='alias'))
+print(emoji.emojize('\U0001F609'))
