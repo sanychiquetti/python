@@ -3,7 +3,7 @@
  um programa que leia o nome dos quatro alunos e mostre a ordem sorteada:
 """
 from random import shuffle
-stud1 = str(input('1º Aluno:')) # o str (string)nem é necessário colocar
+stud1 = str(input('1º Aluno:'))
 stud2 = str(input('2º Aluno:'))
 stud3 = str(input('3º Aluno:'))
 stud4 = str(input('4º Aluno:'))

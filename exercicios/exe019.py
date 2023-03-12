@@ -1,6 +1,7 @@
 """
-Um professor quer sortear um dos seus alunos para apagar o quadro. Faça um programa que ajude ele,
-lendo o nome dos alunos e escrevendo o nome sorteado.
+Um professor quer sortear um dos seus alunos para apagar o quadro.
+Faça um programa que ajude ele, lendo o nome dos alunos e escrevendo
+o nome sorteado.
 """
 from random import choice
 stud1 = str(input('1ª aluno: '))
