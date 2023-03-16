@@ -4,8 +4,9 @@ Calcule o preço da passagem, cobrando R$ 0,50 por km rodado para viagens até 2
 e R$ 0,45 para viagens mais longas.
 """
 km = float(input('Qual a distância em km até a sua cidade? '))
-if km >=200:
-    print('O valor da passagem será de R$ {:.2f}'.format(km * 0.5))
+if km <= 200:
+    preco = km * 0.5
 else:
-    print('O valor da sua passagem será de R$ {:.2f}'.format(km * 0.45))
+    preco = km * 0.45
+print('O valor da sua passagem será de R$ {:.2f}'.format(preco))
 print('Boa Viagem!')

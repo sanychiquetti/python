@@ -8,7 +8,7 @@ print('-*=*-' * 8)
 print('        Vamos jogar advinhação? ')
 print('-*=*-' * 8)
 chute = int(input('Pensei em um número de 0 a 5, qual número pensei? '))
-sorteio = random.randint(0, 6)
+sorteio = random.randint(0, 5)
 if chute == sorteio:
     print('Você acertou! O número que pensei foi {}'.format(sorteio))
 else:

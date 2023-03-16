@@ -5,7 +5,7 @@ se elas podem ou não formar um triângulo.
 ladoA = input('Digite o primeiro lado: ')
 ladoB = input('Digite o segundo lado: ')
 ladoC = input('Digite o terceiro lado: ')
-if (ladoA + ladoB <= ladoC) or (ladoB + ladoC <= ladoA):
+if ladoA + ladoB <= ladoC or ladoB + ladoC <= ladoA:
     print('Não é um triângulo!')
 else:
     print('É um triângulo!')

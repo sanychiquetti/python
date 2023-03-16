@@ -6,6 +6,8 @@ Para salários inferiores ou igual, o aumento é de 15%.
 """
 salario = float(input('Qual seu salário? R$ '))
 if salario <= 1250:
-    print('Seu salário será R$ {:.2f} com o aumento de 15%'.format((salario * 15/100) + salario))
+    aumento = (salario * 15/100) + salario
 else:
-    print('Seu novo salário será de R$ {:.2f} com o aumento de 10%'.format((salario * 10/100) + salario))
+    aumento = (salario * 10/100) + salario
+print('Seu novo salário será de R$ {:.2f} com o aumento.'.format(aumento))
+
